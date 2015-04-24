@@ -1,0 +1,8 @@
+GRID DYNAMIC LAYOUT
+{{model.description}}
+<br/>
+<br/>
+{{#if editWindowActive}}
+  {{cmp-textarea-edit content=editContent}}
+{{/if}}
+{{cmp-grid items=items action="editItem"}}

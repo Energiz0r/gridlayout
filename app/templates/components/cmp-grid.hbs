@@ -1,0 +1,6 @@
+
+{{#each item in items}}
+  {{#cmp-grid-item action="editItem" editCmp=item.editComp content=item.content isBig=item.isBig}}
+    {{component item.componentName content=item.content}}
+  {{/cmp-grid-item}}
+{{/each}}

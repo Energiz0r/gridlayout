@@ -1,0 +1,20 @@
+.c-grid-item{
+  border: 1px solid #000000;
+  min-width: 200px;
+  max-width: 400px;
+  height: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.edit-button{
+  text-align: right;
+}
+
+.c-grid-item-body{
+  width: 200px;
+}
+
+.c-grid-item-body-big{
+  width: 400px;
+}

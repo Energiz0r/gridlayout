@@ -1,0 +1,14 @@
+<table>
+    <tr class="c-risk-row">
+        <td class="c-risk-column">Risk</td>
+        <td class="c-risk-column">Probability</td>
+        <td class="c-risk-column">Impact</td>
+    </tr>
+    {{#each risk in content}}
+          <tr class="c-risk-row">
+              <td class="c-risk-column">{{risk.name}}</td>
+              <td class="c-risk-column">{{risk.prob}}</td>
+              <td class="c-risk-column">{{risk.impact}}</td>
+          </tr>
+    {{/each}}
+</table>

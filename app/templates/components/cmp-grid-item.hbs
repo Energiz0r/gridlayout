@@ -1,0 +1,11 @@
+<div class="edit-button" {{action "edit"}}>EDIT</div>
+{{#if isBig}}
+    <div class="c-grid-item-body-big">{{yield}}</div>
+{{else}}
+  {{#if isExpanded}}
+      <div {{action "toggleExpand"}} class="c-grid-item-body-big">{{yield}}</div>
+  {{else}}
+      <div {{action "toggleExpand"}} class="c-grid-item-body">{{yield}}</div>
+  {{/if}}
+{{/if}}
+
